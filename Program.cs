@@ -1,11 +1,13 @@
 ﻿using System.Xml.Serialization;
 
-int secretNumber = 42;
+
+Random random = new Random(7);
+int secretNumber = random.Next(1, 101);
 int guesses = 4;
 int count = 1;
 while (guesses > 0)
 {
-    Console.WriteLine($"This is guess number {count}, Guess the secret number");
+    Console.WriteLine($"This is guess number {count}, you have {guesses} guesses left, Guess the secret number");
     int choice = int.Parse(Console.ReadLine().Trim());
     count++;
     if (secretNumber == choice)
