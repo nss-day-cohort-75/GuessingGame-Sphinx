@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7JsR84r/mtZLVr709wOXKXoBAgiInFNe3+rkpNjOHk9VsOxUON7aIN8q1hrK9PK0xUDnuPYQQTRVMi1CMx923A==",
+  "dgSpecHash": "xNgG8WQQW4H8ieVdJ7fkGeFn+kd4c5pGUAsGmVfIDJbHDilSbgUBMmPxhnsAk4oeKHZXt0X6YMB8f4HAO/bP5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adelu\\workspace\\GuessingGame-Sphinx\\GuessingGame.csproj",
+  "projectFilePath": "/Users/robopolo/workspace/csharp/GuessingGame-Sphinx/GuessingGame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

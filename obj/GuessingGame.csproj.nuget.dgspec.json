@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adelu\\workspace\\GuessingGame-Sphinx\\GuessingGame.csproj": {}
+    "/Users/robopolo/workspace/csharp/GuessingGame-Sphinx/GuessingGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adelu\\workspace\\GuessingGame-Sphinx\\GuessingGame.csproj": {
+    "/Users/robopolo/workspace/csharp/GuessingGame-Sphinx/GuessingGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adelu\\workspace\\GuessingGame-Sphinx\\GuessingGame.csproj",
+        "projectUniqueName": "/Users/robopolo/workspace/csharp/GuessingGame-Sphinx/GuessingGame.csproj",
         "projectName": "GuessingGame",
-        "projectPath": "C:\\Users\\adelu\\workspace\\GuessingGame-Sphinx\\GuessingGame.csproj",
-        "packagesPath": "C:\\Users\\adelu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adelu\\workspace\\GuessingGame-Sphinx\\obj\\",
+        "projectPath": "/Users/robopolo/workspace/csharp/GuessingGame-Sphinx/GuessingGame.csproj",
+        "packagesPath": "/Users/robopolo/.nuget/packages/",
+        "outputPath": "/Users/robopolo/workspace/csharp/GuessingGame-Sphinx/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adelu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/robopolo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
