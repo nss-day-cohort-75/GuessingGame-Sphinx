@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nicholas\\workspace\\csharp\\GuessingGame\\GuessingGame.csproj": {}
+    "C:\\Users\\adelu\\workspace\\GuessingGame-Sphinx\\GuessingGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nicholas\\workspace\\csharp\\GuessingGame\\GuessingGame.csproj": {
+    "C:\\Users\\adelu\\workspace\\GuessingGame-Sphinx\\GuessingGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicholas\\workspace\\csharp\\GuessingGame\\GuessingGame.csproj",
+        "projectUniqueName": "C:\\Users\\adelu\\workspace\\GuessingGame-Sphinx\\GuessingGame.csproj",
         "projectName": "GuessingGame",
-        "projectPath": "C:\\Users\\Nicholas\\workspace\\csharp\\GuessingGame\\GuessingGame.csproj",
-        "packagesPath": "C:\\Users\\Nicholas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicholas\\workspace\\csharp\\GuessingGame\\obj\\",
+        "projectPath": "C:\\Users\\adelu\\workspace\\GuessingGame-Sphinx\\GuessingGame.csproj",
+        "packagesPath": "C:\\Users\\adelu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adelu\\workspace\\GuessingGame-Sphinx\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nicholas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\adelu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,17 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -61,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

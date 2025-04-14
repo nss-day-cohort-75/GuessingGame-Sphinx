@@ -2,13 +2,19 @@
 
 int secretNumber = 42;
 int guesses = 4;
-while(guesses > 0){
-    Console.WriteLine("Guess the secret number");
+int count = 1;
+while (guesses > 0)
+{
+    Console.WriteLine($"This is guess number {count}, Guess the secret number");
     int choice = int.Parse(Console.ReadLine().Trim());
-    if(secretNumber == choice){
+    count++;
+    if (secretNumber == choice)
+    {
         Console.WriteLine($"{choice} was the secret number!");
         break;
-    }else{
+    }
+    else
+    {
         Console.WriteLine($"{choice} was not the secret number.");
         guesses--;
     }
