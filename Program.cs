@@ -17,6 +17,15 @@ while (guesses > 0)
     }
     else
     {
+        if (choice > secretNumber)
+        {
+            Console.WriteLine("Too high, guess lower");
+        }
+        else
+        {
+            Console.WriteLine("Too Low, guess higher");
+        }
+
         Console.WriteLine($"{choice} was not the secret number.");
         guesses--;
     }
