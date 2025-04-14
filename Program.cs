@@ -33,14 +33,16 @@ switch (response)
         guesses = -1;
         break;
 }
-string message = $"you have {guesses} guesses left, ";
-
-if (guesses < 0) {
-    message = "";
-}
 
 while (guesses != 0)
 {
+    string message = $"you have {guesses} guesses left, ";
+
+    if (guesses < 0)
+    {
+        message = "";
+    }
+
     Console.WriteLine($"This is guess number {count}, {message}Guess the secret number");
     int choice = int.Parse(Console.ReadLine().Trim());
     count++;
@@ -60,7 +62,7 @@ while (guesses != 0)
             Console.WriteLine("Too Low, guess higher");
         }
 
-        Console.WriteLine($"{choice} was not the secret number.");
+        Console.WriteLine("Sorry that was not the secret number.");
         guesses--;
     }
 }
