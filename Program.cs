@@ -1,10 +1,15 @@
 ﻿using System.Xml.Serialization;
 
-Console.WriteLine("Guess the secret number");
-int choice = int.Parse(Console.ReadLine().Trim());
 int secretNumber = 42;
-if(secretNumber == choice){
-    Console.WriteLine($"{choice} was the secret number!");
-}else{
-    Console.WriteLine($"{choice} was not the secret number.");
+int guesses = 4;
+while(guesses > 0){
+    Console.WriteLine("Guess the secret number");
+    int choice = int.Parse(Console.ReadLine().Trim());
+    if(secretNumber == choice){
+        Console.WriteLine($"{choice} was the secret number!");
+        break;
+    }else{
+        Console.WriteLine($"{choice} was not the secret number.");
+        guesses--;
+    }
 }
